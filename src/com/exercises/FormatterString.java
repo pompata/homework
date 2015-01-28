@@ -3,7 +3,7 @@ package com.exercises;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Exercise6 {
+public class FormatterString {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);

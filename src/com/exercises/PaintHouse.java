@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Exercise10 {
+public class PaintHouse {
 
 	private static final float[][] COORDS = new float[][] {
 		{ 10f, 9.7f },
@@ -45,7 +45,7 @@ public class Exercise10 {
 	
 	public static void main(String[] args) {
 		
-		// Too lazy to: read COORDS from the console!
+		// No point in reading the coords from the console since I wouldn't manually type it.
 		
 		File f = new File("house.html");
 		PrintWriter output = null;
