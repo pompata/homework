@@ -51,7 +51,7 @@ public class Exercise10 {
 		PrintWriter output = null;
 		try {
 			output = new PrintWriter(f);
-
+			// start drawing
 			draw(output);
 
 			output.flush();
